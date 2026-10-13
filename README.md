@@ -15,3 +15,9 @@ Ultrac checks for stable updates shortly after launch and every six hours. Updat
 Use **Ultrac → Check for Updates** for a manual check. If updating fails, retry from the update notice or download the latest DMG and replace Ultrac in Applications. Your app profile is preserved; conversations and tasks remain in the hosted service.
 
 Each release includes the DMG, the ZIP used for automatic updates, update metadata, blockmaps, and SHA-256 checksums. macOS validates the app signature before installing an automatic update.
+
+## Account and appearance
+
+Open the account menu at the bottom of the sidebar for Settings, account details, Usage & billing, help and sign-out. Settings → General offers Light, Dark and System appearance. Preferences persist on this Mac.
+
+Usage & billing shows actual session and weekly request counts and limits, remaining requests and percentages, reset countdowns, and exact local reset times with timezone. The previous workspace/CLI tools sidebar is removed.
