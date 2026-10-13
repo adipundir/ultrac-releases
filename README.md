@@ -1,27 +1,17 @@
-# Ultrac Desktop downloads
+# Ultrac Desktop
 
-Ultrac Desktop provides hosted chat, saved conversations, background tasks, and a local workspace folder selector on macOS.
+Ultrac is general-purpose unrestricted AI for research, writing, coding, analysis, automation, and other tasks.
 
-[Download the latest release](https://github.com/adipundir/ultrac-releases/releases/latest)
+Download the latest Ultrac Desktop installer from [Releases](https://github.com/adipundir/ultrac-releases/releases/latest). This repository distributes signed, Apple-notarized desktop binaries. Source code is maintained separately.
 
 ## Install
 
-The first release supports Apple Silicon Macs (M1 or later) running macOS 12 or newer. Download the DMG from the release page, open it, and drag Ultrac into Applications. Open Ultrac from Applications and sign in using your emailed code. Your Ultrac account’s access requirements apply.
-
-The installers are signed with a Developer ID Application certificate and notarized by Apple. Node.js and the CLI are not required for hosted chat and tasks.
+Requires an Apple Silicon Mac (M1 or later) running macOS 12 or later. Open the DMG, drag Ultrac to Applications, and launch it from Applications. Sign in with your Ultrac email code. Account access requirements apply.
 
 ## Updates
 
-Quit Ultrac, download the newer release, and replace the app in Applications. Updates are manual; there is no in-app updater. Conversations and tasks are stored by the hosted service. Local workspace selection and drafts remain in the app profile.
+Ultrac checks for stable updates shortly after launch and every six hours. Updates download in the background. Choose **Restart to Update** when ready, or quit normally to install the downloaded update. The app does not force a restart during your session.
 
-The workspace panel offers copyable CLI commands. The desktop does not run local agents or index files.
+Use **Ultrac → Check for Updates** for a manual check. If updating fails, retry from the update notice or download the latest DMG and replace Ultrac in Applications. Your app profile is preserved; conversations and tasks remain in the hosted service.
 
-## Verify a download
-
-Each release includes a SHA256SUMS file alongside the DMG and ZIP. Download the installers and that file into one directory, then run:
-
-```sh
-shasum -a 256 -c SHA256SUMS
-```
-
-This repository contains installers and release notes. The application source remains private.
+Each release includes the DMG, the ZIP used for automatic updates, update metadata, blockmaps, and SHA-256 checksums. macOS validates the app signature before installing an automatic update.
