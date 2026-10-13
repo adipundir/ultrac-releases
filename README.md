@@ -6,7 +6,7 @@ Ultrac Desktop provides hosted chat, saved conversations, background tasks, and 
 
 ## Install
 
-The first release supports Apple Silicon Macs (M1 or later). Download the DMG from the release page, open it, and drag Ultrac into Applications. Open Ultrac from Applications and sign in using your emailed code. Your Ultrac account’s access requirements apply.
+The first release supports Apple Silicon Macs (M1 or later) running macOS 12 or newer. Download the DMG from the release page, open it, and drag Ultrac into Applications. Open Ultrac from Applications and sign in using your emailed code. Your Ultrac account’s access requirements apply.
 
 The installers are signed with a Developer ID Application certificate and notarized by Apple. Node.js and the CLI are not required for hosted chat and tasks.
 
